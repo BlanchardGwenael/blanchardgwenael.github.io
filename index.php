@@ -1,6 +1,7 @@
-<!DOCTYPE html>
 <html>
-  <?php
-  echo "<h1>test</h1>";
-  ?>
+  <body>
+    <?php
+    echo "<h1>test</h1>";
+    ?>
+  </body>
 </html>
