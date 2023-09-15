@@ -1,3 +1,6 @@
-<?php
-echo "<h1>test</h1>";
-?>
+<!DOCTYPE html>
+<html>
+  <?php
+  echo "<h1>test</h1>";
+  ?>
+</html>
