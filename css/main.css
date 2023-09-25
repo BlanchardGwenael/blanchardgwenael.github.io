@@ -1,0 +1,79 @@
+/*==============*/
+/* arrière plan */
+/*==============*/
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(128,128,255);
+}
+
+/*=========*/
+/* En Tête */
+/*=========*/
+
+#enTete{
+    background-color: rgb(64,64,128);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#corp{
+    margin-top: 5em;
+}
+
+#enTete .titre{
+    color: white;
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+/*==============*/
+/* Menu En Tête */
+/*==============*/
+
+#enTete .menu {
+    align-self: flex-end;
+    display: flex;
+}
+
+#enTete .menu a:link {
+    text-decoration: none;
+    background-color: rgb(64,64,255);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    margin: 1em;
+    color: white;
+}
+
+#enTete .menu .lien:hover {
+    background-color: rgb(32, 32,64);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    margin: 1em;
+    color: rgb(32,32,255);
+}
+
+
+#enTete .menu a:visited{
+    background-color: rgb(0,64,255);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    margin: 1em;
+    color: grey;
+}
+
+
+#enTete .menu a:active{
+    background-color: rgb(0,64,255);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    margin: 1em;
+    color: aliceblue;
+}
