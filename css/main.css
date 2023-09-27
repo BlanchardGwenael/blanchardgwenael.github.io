@@ -22,6 +22,8 @@ html {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
 }
 
 #corp{
@@ -43,7 +45,8 @@ html {
     display: flex;
 }
 
-#enTete .menu a:link {
+#enTete .menu a:link,
+#enTete .menu a:visited {
     text-decoration: none;
     background-color: rgb(64,64,255);
     border-radius: 0.5em;
@@ -53,27 +56,10 @@ html {
 }
 
 #enTete .menu .lien:hover {
-    background-color: rgb(32, 32,64);
-    border-radius: 0.5em;
-    padding: 0.25em;
-    margin: 1em;
-    color: rgb(32,32,255);
+    background-color: rgb(32, 32,255);
 }
-
-
-#enTete .menu a:visited{
-    background-color: rgb(0,64,255);
-    border-radius: 0.5em;
-    padding: 0.25em;
-    margin: 1em;
-    color: grey;
-}
-
 
 #enTete .menu a:active{
     background-color: rgb(0,64,255);
-    border-radius: 0.5em;
-    padding: 0.25em;
-    margin: 1em;
     color: aliceblue;
 }
